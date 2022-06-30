@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
- *
- * using put for standard ouput
+/**
+ *main-entry points
+ *Return: Always retun 0 (success)
  */
 int main(void)
 {
