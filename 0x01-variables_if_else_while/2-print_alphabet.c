@@ -2,7 +2,6 @@
 
 /**
 * main - Prints the alphabets
-*
 * Return: 0 is success
 */
 int main(void)
