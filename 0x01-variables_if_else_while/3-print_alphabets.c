@@ -1,23 +1,27 @@
 #include <stdio.h>
 
 /**
-* main - entry point
-* Prints the alphabets
-* Returns : 0 is success
+* main - prints the alphabetics
+*
+* Return: - Always (success)
 */
 int main(void)
-
 {
-	char a = a;
-	char Z = Z;
+	char a = 'a';
+	char z = 'z';
+	char A = 'A';
+	char Z = 'Z';
 
-	while (a => Z)
-{
-	putchar 'a';
-	a++;
-}
+	while (a <= z)
+	{
+		putchar(a);
+		a++;
+	}
+	while (A <= Z)
+	{
+		putchar(A);
+		A++;
+	}
 	putchar('\n');
 	return (0);
-
 }
-
