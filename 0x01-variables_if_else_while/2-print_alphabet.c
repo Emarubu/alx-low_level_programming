@@ -2,7 +2,6 @@
 
 /**
 * main - Prints the alphabets
-*
 * Return: 0 is success
 */
 int main(void)
@@ -16,5 +15,6 @@ int main(void)
 	putchar(a);
 	a++;
 }
-	putchar("\n");
+	putchar('\n');
 	return (0);
+}
