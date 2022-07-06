@@ -2,22 +2,27 @@
 
 /**
 * main - entry point
-* Prints the alphabets
-* Returns : 0 is success
+* Prints the alphabets in lowercase, then in upeercase.
+* Returns: 0 is success
 */
 int main(void)
-
 {
-	char a = a;
-	char Z = Z;
+	char a ='a';
+	char z ='z';
+	char A ='A';
+	char Z ='Z';
 
-	while (a => Z)
+	while (a <= z)
 {
-	putchar 'a';
+	putchar(a);
 	a++;
+}
+	while (A <= Z)
+{
+	putchar(A);
+	A++;
 }
 	putchar('\n');
 	return (0);
 
 }
-
