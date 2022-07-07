@@ -5,7 +5,6 @@
 * 10 times.
 * Return: no return.
 */
-
 void more_numbers(void)
 {
 	int x, y;
@@ -14,6 +13,7 @@ void more_numbers(void)
 		{
 			for (y = 0; y <= 15; y++)
 			{
+				if (a >= 10)
 				_putchar((y / 10) + '0');
 				_putchar((y % 10) + '0');
 			}
