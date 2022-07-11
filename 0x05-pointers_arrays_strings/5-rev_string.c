@@ -3,7 +3,7 @@
 
 /**
 * rev_string - prints a string
-* @s: string
+* @s: character pointer
 * Return: 0
 */
 void rev_string(char *s)
@@ -12,13 +12,13 @@ void rev_string(char *s)
 	char c;
 
 	i = 0;
-	j = strlen(s) -1;
+	j = strlen(s) - 1;
 
-	while(i < j)
+	while (i < j)
 	{
 		c = s[j];
 		s[i] = s[j];
 		s[j] = c;
 		i++, j--;
-	} 
+	}
 }
