@@ -1,13 +1,13 @@
 #include "main.h"
-#include <sting.h>
+#include <string.h>
 
 /**
-* print_array - prints elements of an array
-* @a: integer a
-* @n: integer n
-*
-*/
-void print_array(int *a, int n)
+ * puts_half - print half a string
+ * @str: character pointer
+ * Return: void
+ */
+
+void puts_half(char *str)
 {
 	int i, len;
 
@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 
 	i = len / 2 + 1;
 
-	while (len <= 1)
+	while (i <= len)
 	{
 		_putchar(str[i]);
 		i++;
