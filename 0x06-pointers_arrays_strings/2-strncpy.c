@@ -1,13 +1,12 @@
 #include "main.h"
-
 #include <string.h>
 
 /**
 * _strncpy - copies two strings
 * @dest: first parameter
-* @src: char pointe
-* @n: intyeger
-* Return: char  
+* @src: second parameter
+* @n: third
+* Return: char
 */
 char *_strncpy(char *dest, char *src, int n)
 {
