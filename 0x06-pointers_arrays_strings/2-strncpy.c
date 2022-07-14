@@ -5,7 +5,7 @@
 * @src: first string
 * @dest: secomd string
 * @n: third
-* Return: a pointer
+* Return: a character
 */
 char *_strncpy(char *dest, char *src, int n)
 {
