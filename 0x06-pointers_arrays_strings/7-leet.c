@@ -16,8 +16,10 @@ char *leet(char *s)
 		while (i < b)
 		{
 			if (s[a] == tr[i] || s[a] - 32 == tr[i])
+			{
 				s[a] = tr[i];
 				i++;
+			}
 		}
 		a++;
 	}
