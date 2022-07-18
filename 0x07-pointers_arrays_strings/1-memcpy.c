@@ -1,11 +1,11 @@
-#include "main.c"
+#include "main.h"
 
 /**
-* _memcpy - copies memory area
-* @dest: destination address
-* @src: source address
-* @n: unsigned int
-* Return: dest
+* *_memcpy - a function that copies memory area.
+*@dest:string to copy to
+*@src:string to copy from
+*@n:unsigned int n
+*Return: dest
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -13,7 +13,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	for (i = 0; i < n; i++)
 	{
-		*(s + i) = *(s + i);
+	dest[i] = src[i];
 	}
 	return (dest);
 }
