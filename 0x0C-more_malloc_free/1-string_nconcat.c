@@ -40,16 +40,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		for (j = 0; s2[j] != '\0'; j++)
 		{
 			p_scat[(i + j)] = s2[j];
-			p_scat[(s1_len + s2_len + 1)] = '\0';
 		}
+			p_scat[(s1_len + s2_len + 1)] = '\0';
+			return (p_scat);
 	}
 	else
 	{
 		for (x = 0; x < n; x++)
 		{
 			p_scat[(i + x)] = s2[x];
-			p_scat[(s1[i] + s2[n] + 1)] = '\0';
 		}
+			p_scat[(s1[i] + s2[n] + 1)] = '\0';
+			return (p_scat);
 	}
-	return (p_scat);
 }
