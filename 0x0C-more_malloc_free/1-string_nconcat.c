@@ -41,7 +41,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		{
 			p_scat[(i + j)] = s2[j];
 		}
-			p_scat[(s1_len + s2_len + 1)] = '\0';
+			p_scat[(s1_len + n + 1)] = '\0';
 			return (p_scat);
 	}
 	else
@@ -50,7 +50,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		{
 			p_scat[(i + x)] = s2[x];
 		}
-			p_scat[(s1[i] + s2[n] + 1)] = '\0';
+			p_scat[(s1_len + n + 1)] = '\0';
 			return (p_scat);
 	}
 }
